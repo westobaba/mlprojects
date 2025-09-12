@@ -7,6 +7,7 @@ from src.exception import CustomException
 from src.logger import logging
 from sklearn.model_selection import GridSearchCV
 from sklearn.metrics import r2_score
+import pickle
 
 def save_object(file_path, obj):
     """
